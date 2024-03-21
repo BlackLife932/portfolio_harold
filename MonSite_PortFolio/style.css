@@ -87,6 +87,8 @@ nav ul li:hover {
 	margin-top: 5%;
 	max-width: 75%;
 	text-align: justify;
+
+
 }
 
 .page-content header h1 {
@@ -236,5 +238,8 @@ footer .colonne p a:hover {
 	}
 	footer .column {
 		width: 80%;
+	}
+	footer .colonne{
+		margin-left: 6%;
 	}
 }
