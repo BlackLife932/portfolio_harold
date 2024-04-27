@@ -7,7 +7,7 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 		<title>
-			PortFolio BUT_STIDS5
+			PORTFOLIO
 		</title>
 	</head>
 	<body>
@@ -427,8 +427,38 @@
 			        <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
 			            <div class="accordion-body"> 
 
-			            	
+			            	Le premier projet d'interprétabilité concernait la concentration de PM10 dans la ville de Rouen. Il était nécessaire de déterminer quels sont les paramètres qui font que le PM10 était plus ou moins concentré. Les observations ayant été relevées entre 2004 & 2006 et j'ai observé une saisonnalité dans les données c'est à dire une tendance. Entre les moins de novembre et de février, la concentration de PM10 était plus élevée que pendant le reste de l'année. <br>
 
+						<section>
+							<img src="Images/PM10MOIS.png">
+						</section>
+
+			            	Dans ma base de donnée, j'ai également différents autres gaz comme le NO, le NO2 ainsi que le SO2. J'ai donc observé dans une étude descriptive des donnée une concentration de polluants avec une concentration minime des polluants lorsque il y a des précipitations c'est à dire de la pluie. J'en ai déduit que la pluie retenait les polluants. Cependant, lorsque il y avait moins de pluie, les polluants les plus présents étaient le NO ainsi que le NO2.<br>
+
+						<section>
+							<img src="Images/Polluants_1.png"> <br> <br>
+							<img src="Images/Polluants_2.png">
+						</section>
+
+			            	Grâce au modèle que j'ai effectué à travers la méthode des randomForests, j'ai pu déterminer mes variables importantes par la suite. Les variables ressortant le plus étant le NO, le NO2 ainsi que la vitesse moyenne du vent.
+
+						<section>
+							<img src="Images/arbre_mean.png">
+						</section>
+
+							Afin de mieux comprendre le graphique : <br> <br>
+								- L'axe des X correspond à la profondeur minimale dans l'ensemble de données. <br> 
+								- L'axe des Y correspond à la propostion des observations qui ont une profondeur minimale égale à chaque valeur de X. <br> <br>
+
+							Autrement dit, plus la profondeur de l'ensemble des données est petite, plus la variable est significative et agit sur notre variable cible qui est ici le PM10.
+
+							Vous pouvez retrouver le projet ci dessous : 
+
+							<section>
+								<a href="Fichiers/Tp_Interprétabilité_1.html" download="Interprétabilité_1.pdf" target="_blank">Télécharger le projet Interprétabilité</a>
+							</section>
+
+							Les variables les plus influentes sur la concentratin du PM10 sont alors les 3 variables observées plus haut à savoir le NO, le NO2 ainsi que la vitesse moyenne du vent.							
 
 			            	<div style="margin-bottom: 20px;"></div>
 			            	<p class="dates"> Dates : Fevrier 2024 - Mars 2024</p>
