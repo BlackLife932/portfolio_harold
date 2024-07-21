@@ -83,6 +83,13 @@ nav ul li:hover {
 	margin: 4%;
 }
 
+.imag {
+    font-style: italic; /* Texte en italique */
+    color: #919191; /* Texte en gris clair */
+    text-align: right; /* Alignement à droite */
+    margin-right: 0; /* Assurer l'alignement à droite */
+}
+
 .page-content header {
 	margin-top: 5%;
 	max-width: 75%;
@@ -148,6 +155,24 @@ nav ul li:hover {
 .accordion-header{
 	/*border: 4px solid lawngreen;*/
 }
+
+
+.card {
+    background-color: #f0f0f0; /* Gris clair */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.card-body {
+    font-style: italic;
+    color: black; /* Texte en gris foncé pour un bon contraste */
+    background-color: #f0f0f0; /* Gris clair */    
+    text-align: justify;
+}
+
+
 
 
 .page-content .projects-section {
