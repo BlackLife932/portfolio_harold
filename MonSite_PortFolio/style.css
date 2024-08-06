@@ -7,9 +7,6 @@ body {
 	margin: 0;
 }
 
-body section header p{
-	/*border: 3px solid lightgoldenrodyellow;*/
-}
 
 body nav ul h2{
 	color: black;
@@ -92,9 +89,8 @@ nav ul li:hover {
 
 .page-content header {
 	margin-top: 5%;
-	max-width: 75%;
+	max-width: 100%;
 	text-align: justify;
-
 
 }
 
@@ -103,6 +99,8 @@ nav ul li:hover {
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 	font-size: 4.5vw;
+	text-align: center;
+	margin-bottom: 1%;
 }
 
 .page-content header p {
@@ -114,12 +112,14 @@ nav ul li:hover {
 	background-color: inherit;
 	border: none;
 	outline: none;
-	padding: 0;
 	font-size: 15px;
 	font-weight: bold;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #ccc;
 	cursor: pointer;
+	display: block;
+	padding: 10px 20px;
+	margin: 0 auto;
 }
 
 .page-content header button:hover {
@@ -134,7 +134,7 @@ nav ul li:hover {
 .page-content .presentation-image img {
 	max-width: 100%;
 	height: auto;
-	margin-bottom: 5%;
+	margin-bottom: 1%;
 }
 
 
@@ -178,25 +178,30 @@ nav ul li:hover {
 .page-content .projects-section {
 	margin-top: 6%;
 }
+
 .page-content .projects-section h1 {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-size: 3vw;
 }
+
 .page-content .projects-section .projects {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 5%;
 	border: 3px solid palevioletred;
 }
+
 .page-content .projects-section .project {
 	margin-right: 20px;
 	max-width: 195px;
 }
+
 .page-content .projects-section .project h4 {
 	margin: 0;
 	border: 3px solid lightgoldenrodyellow;
 }
+
 .page-content .projects-section .project .description {
 	font-size: 10px;
 	text-align: justify;
@@ -211,6 +216,7 @@ nav ul li:hover {
 
 body div div div{
 	text-align: justify;
+	max-width: 100%;
 }
 
 body div div div p{
@@ -223,7 +229,7 @@ body div div div section{
 }
 
 body div div div section img{
-	max-width: 90%;
+	max-width: 100%;
 	height: auto;
 }
 
@@ -289,11 +295,12 @@ footer .colonne p a:hover {
 
 
 	footer {
-		justify-content: flex-start;
+		justify-content: space-between;
+		padding: 20px;
 	}
+
 	footer .colonne {
 		text-align: center;
-		margin-left: 5%;
 	}
 
 	footer .colonne h3{
